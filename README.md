@@ -7,9 +7,7 @@ How to install
 =====
 Download (clone) the repository into your computer, go into the directory and run:
 
-	```
 	make
-	```
 
 (Works only on machines that run Linux and Mac OS.)
 
