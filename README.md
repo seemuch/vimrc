@@ -9,7 +9,7 @@ Download (clone) the repository into your computer, go into the directory and ru
 
 	make
 
-(Works only on machines that run Linux and Mac OS.)
+(Works only on machines that run Linux or Mac OS.)
 
 Plugins included
 =====
