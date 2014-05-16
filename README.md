@@ -10,6 +10,7 @@ Download (clone) the repository into your computer, go into the directory and ru
 	make
 
 Works only on machines that run Linux or Mac OS.
+
 Warning: this will remove all your original vim configurations. Back them up if necessary.
 
 Plugins included
