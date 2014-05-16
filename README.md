@@ -5,7 +5,7 @@ My vim configuration (with plugins)
 
 How to install
 =====
-run command:
+Download (clone) the repository into your computer, go into the directory and run:
 	```
 	make
 	```
