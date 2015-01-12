@@ -18,3 +18,7 @@ Plugins included
 NERD_tree (http://www.vim.org/scripts/script.php?script_id=1658)
 
 Supertab (http://www.vim.org/scripts/script.php?script_id=1643)
+
+Update
+=====
+Inlucdes a bunch of color schemes.

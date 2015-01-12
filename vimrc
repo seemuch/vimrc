@@ -152,7 +152,7 @@ set mouse=a
 " Enable syntax highlighting
 syntax enable
 
-colorscheme elflord 
+colorscheme shadesofamber
 set background=dark
 
 " Set extra options when running in GUI mode
@@ -170,6 +170,8 @@ set encoding=utf8
 set ffs=unix,dos,mac
 
 
+"cSyntaxAfter plugin
+autocmd! BufRead,BufNewFile,BufEnter *.{c,cpp,h,javascript} call CSyntaxAfter()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
