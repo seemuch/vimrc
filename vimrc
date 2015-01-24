@@ -152,8 +152,10 @@ set mouse=a
 " Enable syntax highlighting
 syntax enable
 
-colorscheme shadesofamber
-set background=dark
+" colorscheme wombat 
+" set background=dark
+
+let g:cpp_class_scope_highlight = 1
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -171,7 +173,7 @@ set ffs=unix,dos,mac
 
 
 "cSyntaxAfter plugin
-autocmd! BufRead,BufNewFile,BufEnter *.{c,cpp,h,javascript} call CSyntaxAfter()
+" autocmd! BufRead,BufNewFile,BufEnter *.{c,cpp,h,javascript} call CSyntaxAfter()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
