@@ -70,8 +70,7 @@ nmap <leader>w :w!<cr>
 " Show line numbers
 set number
 
-" Show current column and line
-set cursorcolumn
+" Show current line
 set cursorline
 
 
@@ -89,6 +88,9 @@ command Q execute "q"
 
 " To toggle NERDTree
 map <F10> :NERDTreeToggle<CR>
+
+" To toggle cursor column
+map <F11> :set cursorcolumn!<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
