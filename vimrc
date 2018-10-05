@@ -152,7 +152,7 @@ set mouse=a
 " Enable syntax highlighting
 syntax enable
 
-" colorscheme wombat 
+colorscheme neon 
 " set background=dark
 
 let g:cpp_class_scope_highlight = 1
