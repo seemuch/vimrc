@@ -70,7 +70,8 @@ nmap <leader>w :w!<cr>
 " Show line numbers
 set number
 
-" Show current line
+" Show current column and line
+set cursorcolumn
 set cursorline
 
 
