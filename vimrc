@@ -81,10 +81,10 @@ set cursorline
 autocmd FileType tex setlocal makeprg=pdflatex\ --shell-escape\ '%'
 
 " To save file using W
-command W execute "w"
+map W :w
 
 " To quit using Q
-command Q execute "q"
+map Q :q
 
 " To toggle NERDTree
 map <F10> :NERDTreeToggle<CR>
@@ -373,7 +373,11 @@ map <leader>q :e ~/buffer<cr>
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
 
-
+" Better split navigation. E.g. ctrl-j instead of ctrl-w + j
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
