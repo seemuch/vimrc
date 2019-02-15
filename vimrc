@@ -81,10 +81,10 @@ set cursorline
 autocmd FileType tex setlocal makeprg=pdflatex\ --shell-escape\ '%'
 
 " To save file using W
-map W :w
+:command W w
 
 " To quit using Q
-map Q :q
+:command Q q
 
 " To toggle NERDTree
 map <F10> :NERDTreeToggle<CR>
